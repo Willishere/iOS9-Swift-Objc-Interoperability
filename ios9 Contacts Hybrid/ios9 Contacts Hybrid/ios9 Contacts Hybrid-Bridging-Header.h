@@ -4,3 +4,4 @@
 
 
 //Import Objective-C code files to give Swift Visibility of our Objc classes and symbols.
+#import "WCContactController.h"

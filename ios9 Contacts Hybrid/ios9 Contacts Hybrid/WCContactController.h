@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+@class Contact;
+
 
 @interface WCContactController : NSObject
 
+@property (nonatomic, readonly, nonnull) NSArray<Contact *> *contacts;
+
+
 @end
 
-NS_ASSUME_NONNULL_END
+
